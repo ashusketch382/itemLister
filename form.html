@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment Form</title>
+</head>
+<body>
+    <form>
+            <p>Required Fields are marked by *</p>
+            <h2>User Info</h2>
+            <p> First Name* :
+                <input type="text" id ="fname" name="fname" required>
+            </p>
+            <p> Last Name :
+                <input type="text" id ="lname" name="lname">
+            </p>
+            <fieldset>
+                <legend>Gender* </legend>
+                <p>
+                    <input type="radio" name="gender" id="gender" required> Male
+                    <input type="radio" name="gender" id="gender" required> Female
+                </p>
+            </fieldset>
+            <p>E-mail* :
+                <input type="email" name="email" id="eamil" required>
+            </p>
+            <p>Date of Birth* :
+                <input type="date" name="dob" id="dob" required>
+            </p>
+            <p>Add picture of your beautiful face :
+                <input type="file" name="profile-photo" id="profile-photo">
+            </p>
+            <p>enter your password* :
+                <input type="password" name="" id="" required>
+            </p>
+            <p>Address :
+                <textarea name="address" id="address" rows="6" cols="150"></textarea>
+            </p>
+            <hr><br>
+            <h2>Payment Info</h2>
+            <p>Card type* :
+                <select name="cardType" id="cardType" required>
+                    <option value="">--Select a card Type--</option>
+                    <option value="Master Card">MasterCard</option>
+                    <option value="Rupay">Rupay</option>
+                    <option value="Visa">Visa</option>
+            </select>
+            </p>
+            <p>Card Number* :
+                <input type="number" name="card-number" id="card-number" required>
+            </p>
+            <p>enter cvv number* :
+                <input type="password" name="cvv" id="cvv" required>
+            </p>
+            <P>Card Expiration Date* :
+                <input type="date" name="card Expiration date" id="card-expiry-date" required>
+            </P>
+            <p>
+                <input type="checkbox" name="termsAndCondition" id="termsAndCondition">I have read terms and condition
+            </p>
+            <input type="submit" value="Pay Now"> &nbsp; &nbsp; &nbsp;
+            <input type="reset" value="Reset">
+    </form>
+</body>
+</html>
