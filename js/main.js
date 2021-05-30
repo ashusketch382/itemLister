@@ -48,7 +48,7 @@ function editItem(e){
     if(e.target.classList.contains('edit')){
         var newItem= prompt("Please Enter the Item", "like Banana"); 
         if(newItem!=null){
-            e.target.parentElement.innerHTML=newItem;
+            e.target.parentElement.firstChild.textContent=newItem;
         }   
     }
 }
