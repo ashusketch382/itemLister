@@ -4,12 +4,15 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/formsStyle.css">
     <title>Payment Form</title>
 </head>
 <body>
+    <div class="container">
     <form>
             <p>Required Fields are marked by *</p>
-            <h2>User Info</h2>
+            <h2 class="main-heading">User Info</h2>
+            <hr>
             <p> First Name* :
                 <input type="text" id ="fname" name="fname" required>
             </p>
@@ -39,7 +42,7 @@
                 <textarea name="address" id="address" rows="6" cols="150"></textarea>
             </p>
             <hr><br>
-            <h2>Payment Info</h2>
+            <h2 class="main-heading">Payment Info</h2>
             <p>Card type* :
                 <select name="cardType" id="cardType" required>
                     <option value="">--Select a card Type--</option>
@@ -63,5 +66,6 @@
             <input type="submit" value="Pay Now"> &nbsp; &nbsp; &nbsp;
             <input type="reset" value="Reset">
     </form>
+</div>
 </body>
 </html>

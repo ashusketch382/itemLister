@@ -5,5 +5,20 @@ h1{
     background-color: red;
 }
 li{
-    line-height: 2;
+    line-height: 3;
+}
+footer p a{
+    text-decoration: none;
+    color: floralwhite;
+}
+footer p a:hover{
+    color: lightblue;
+}
+.contact-form{
+    display: block;
+    background-color: darkcyan;
+    text-align: center;
+    padding: 7px;
+    font-size: 30px;
+    border-radius: 50px;
 }
